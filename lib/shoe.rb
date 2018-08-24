@@ -33,7 +33,7 @@ class Shoe
   end
   def cobble
     puts "The shoe has been repaired"
-    shoe.condition = "new"
+    Shoe.condition = "new"
   end
   
 end
