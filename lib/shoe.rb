@@ -1,12 +1,17 @@
 # Make your shoe class here!
 
 class Shoe
-  def initiate(brand)
+  def initialize(brand)
     @brand=brand
   end
   def brand
-    @brand = brand
+    @brand
   end
-  def color=
+  def color=(color)
+    @color = color
+  end
+  def color
+    @color
+  end
     
 end
