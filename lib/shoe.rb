@@ -4,6 +4,8 @@ class Shoe
   def initiate(brand)
     @brand=brand
   end
-  def
+  def brand
+    @brand = brand
+  end
     
 end
